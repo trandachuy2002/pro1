@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header {
+  max-width: 100%;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+}
+.containerr {
+  max-width: 100%;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+.header-top {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #212529;
+}
+.menu_nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul li {
+  margin-left: 20px;
+}
+.menu ul li a {
+  color: #212529;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 14px;
+}
+.menu-hover a {
+  padding: 10px 20px 10px 20px;
+  color: white !important;
+  background-color: #2937f0;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #2430d4;
+}
+.menu-hover i {
+  margin-right: 10px;
+}
+section {
+  background-color: #f8f9fa;
+}
+.container {
+  max-width: 100%;
+  width: 1280px;
+  height: 773px;
+  margin: 0 auto;
+}
+.style-item-title {
+  width: 55%;
+}
+.titel-top h1 {
+  color: #212529;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+}
+.title-botom p {
+  color: #6c757d;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.title-logo {
+  display: flex;
+  align-items: center;
+}
+.title-logo_item img {
+  width: 100%;
+  height: 48px;
+}
+.leff {
+  margin-left: 15px;
+}
+.title-botom p {
+  padding: 16px 0 48px 0;
+}
+.style-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: calc(100% / 2 -5px); */
+  padding-top: 65px;
+  position: relative;
+  z-index: 1;
+}
+
+.style-video_img {
+  width: 40%;
+  /* height: 550px; */
+  margin: 0 auto;
+  position: relative;
+}
+.style-video_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bacground {
+  background: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+  width: 450px;
+  height: 450px;
+  border-radius: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(20%, 10%);
+  z-index: -1;
+}
+.bacground::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  right: 0;
+  border-radius: 100%;
+  background: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+}
+.bacground::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  bottom: 0;
+  left: 0;
+  border-radius: 100%;
+  background: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+}
+.containerrr {
+  max-width: 100%;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+.til {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+.title-box {
+  padding: 110px 30px 110px 30px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.title-box p {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 48px;
+}
+.title-img {
+  width: 130px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+}
+.title-img img {
+  width: 100%;
+  height: 100%;
+}
+.video-ef {
+}
+.video video {
+  position: absolute;
+  top: 12%;
+  left: 29.5%;
+  z-index: -1;
+}
+.row-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 65px 0 0 0;
+  position: relative;
+}
+.row-item-lef {
+  position: relative;
+}
+.row-item-left-img {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.row-item-left-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.backgorud-left {
+  background: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+  width: 350px;
+  height: 350px;
+  border-radius: 60%;
+  position: absolute;
+  left: -50%;
+  top: 15%;
+}
+.backgorud-left::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  bottom: -10%;
+  left: 20%;
+  border-radius: 100%;
+  background: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+}
+.backgorud-left::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -10%;
+  right: -20%;
+  border-radius: 100%;
+  background: linear-gradient(90.06deg, #f62682 -4.45%, #6f5cf1 104.12%);
+}
+.row-item-right {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.row-icon-right i {
+  background-image: linear-gradient(#2937f0, #9f1ae2);
+  font-size: 64px;
+}
